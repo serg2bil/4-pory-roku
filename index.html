@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cztery Pory Roku — festiwal fotografii. Wystawa w Galerii Sztuki Nowoczesnej, Poznań.">
+  <title>Cztery Pory Roku — Festiwal fotografii</title>
+  <link rel="icon" href="public/Logo3.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header" id="top">
+    <a href="#start" class="header-logo" aria-label="Strona główna">
+      <img src="public/Logo4.png" alt="Cztery Pory Roku" width="100" height="100">
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Menu główne">
+      <ul>
+        <li><a href="#start">Start</a></li>
+        <li><a href="#wiosna">Wiosna</a></li>
+        <li><a href="#lato">Lato</a></li>
+        <li><a href="#jesien">Jesień</a></li>
+        <li><a href="#zima">Zima</a></li>
+        <li><a href="#laureaci">Laureaci</a></li>
+        <li><a href="#broszura">Broszura</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="start" class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        {% comment %} <img src="public/Pory_roku-08.png" alt=""> {% endcomment %}
+      </div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+
+      <div class="hero-inner">
+        <div class="hero-content">
+          <h1 class="visually-hidden">Cztery Pory Roku — Festiwal fotografii</h1>
+          <img class="hero-logo" src="public/Logo2.png" alt="">
+          <p class="hero-label">Festiwal fotografii</p>
+          <p class="hero-meta">
+            <span class="hero-dates">15.07 — 05.08</span>
+            <span>Galeria Sztuki Nowoczesnej, Poznań</span>
+          </p>
+          <a href="#wiosna" class="btn btn-hero">Zobacz wystawę</a>
+        </div>
+
+        <aside class="hero-aside" aria-label="Informacje o wystawie">
+          <p class="hero-aside-label">Wystawa fotografii</p>
+          <p class="hero-aside-dates">15.07 <span aria-hidden="true">→</span> 05.08</p>
+          <p class="hero-aside-detail">Wernisaż o 18:00</p>
+          <p class="hero-aside-detail">Wt – Nd · 11:00 – 20:00</p>
+        </aside>
+      </div>
+
+      <div class="hero-deco hero-deco--bl" aria-hidden="true"></div>
+      <div class="hero-deco hero-deco--tr" aria-hidden="true"></div>
+    </section>
+
+    <section id="wiosna" class="season season--wiosna">
+      <div class="season-visual season-visual--wiosna">
+        <img src="public/Pory_roku-02.png" alt="Wiosna — plakat wystawy z makrofotografią">
+      </div>
+      <div class="season-panel">
+        <span class="season-tag">01</span>
+        <h2 class="season-title">Wiosna</h2>
+        <p class="season-text">
+          Odrodzenie, światło i delikatność natury. Wiosenne kadry festiwalu
+          łączą makro, portret i geometryczną kompozycję w stylu współczesnej
+          fotografii artystycznej.
+        </p>
+        <img class="season-graphic" src="public/Materials_page-0004.jpg" alt="Grafika sezonu Wiosna">
+      </div>
+    </section>
+
+    <section id="lato" class="season season--lato">
+      <div class="season-visual season-visual--lato">
+        <img src="public/Pory_roku-07.png" alt="Lato — plakat wystawy">
+      </div>
+      <div class="season-panel">
+        <span class="season-tag">02</span>
+        <h2 class="season-title">Lato</h2>
+        <p class="season-text">
+          Ciepło, kontrast i słońce. Letnia odsłona to energia koloru,
+          dynamiczne formy i fotografie pełne światła i ruchu.
+        </p>
+        <img class="season-graphic" src="public/Materials_page-0002.jpg" alt="Grafika sezonu Lato">
+      </div>
+    </section>
+
+    <section id="jesien" class="season season--jesien">
+      <div class="season-visual season-visual--jesien">
+        <img src="public/Pory_roku-06.png" alt="Jesień — jabłko na śniegu, plakat wystawy">
+      </div>
+      <div class="season-panel">
+        <span class="season-tag">03</span>
+        <h2 class="season-title">Jesień</h2>
+        <p class="season-text">
+          Głębokie czerwienie i filmowy nastrój. Jesienne prace budują
+          emocjonalną narrację — od ciszy po intensywną grę światła i cienia.
+        </p>
+        <img class="season-graphic" src="public/Materials_page-0003.jpg" alt="Grafika sezonu Jesień">
+      </div>
+    </section>
+
+    <section id="zima" class="season season--zima">
+      <div class="season-visual season-visual--zima">
+        <img src="public/Pory_roku-07.png" alt="Zima — plakat wystawy">
+      </div>
+      <div class="season-panel">
+        <span class="season-tag">04</span>
+        <h2 class="season-title">Zima</h2>
+        <p class="season-text">
+          Chłód, minimalizm i spokój. Zimowa część wystawy to stonowana
+          paleta, geometryczne kadry i fotografie o charakterze medytacyjnym.
+        </p>
+        <img class="season-graphic" src="public/Materials_page-0005.jpg" alt="Grafika sezonu Zima">
+      </div>
+    </section>
+
+    <section id="laureaci" class="laureaci">
+      <div class="laureaci-inner">
+        <img class="laureaci-symbol" src="public/Logo3.png" alt="" aria-hidden="true">
+        <p class="section-label">Konkurs</p>
+        <h2 class="section-title">Laureaci</h2>
+        <p class="laureaci-intro">
+          Wyniki festiwalu fotografii Cztery Pory Roku — nagrody główne
+          i wyróżnienia jury.
+        </p>
+
+        <div class="laureaci-grid">
+          <article class="laureat laureat--gold">
+            <span class="laureat-place">1 miejsce</span>
+            <div class="laureat-frame">
+              <div class="laureat-placeholder" aria-hidden="true"></div>
+            </div>
+            <h3 class="laureat-name">Anna Kowalska</h3>
+            <p class="laureat-work">„Poranek we mgle”</p>
+          </article>
+
+          <article class="laureat laureat--silver">
+            <span class="laureat-place">2 miejsce</span>
+            <div class="laureat-frame">
+              <div class="laureat-placeholder" aria-hidden="true"></div>
+            </div>
+            <h3 class="laureat-name">Michał Nowak</h3>
+            <p class="laureat-work">„Cień drzew”</p>
+          </article>
+
+          <article class="laureat laureat--bronze">
+            <span class="laureat-place">3 miejsce</span>
+            <div class="laureat-frame">
+              <div class="laureat-placeholder" aria-hidden="true"></div>
+            </div>
+            <h3 class="laureat-name">Zofia Wiśniewska</h3>
+            <p class="laureat-work">„Ostatni śnieg”</p>
+          </article>
+
+          <article class="laureat laureat--mention">
+            <span class="laureat-place">Wyróżnienie</span>
+            <div class="laureat-frame">
+              <div class="laureat-placeholder" aria-hidden="true"></div>
+            </div>
+            <h3 class="laureat-name">Kuba Lewandowski</h3>
+            <p class="laureat-work">„Złota godzina”</p>
+          </article>
+
+          <article class="laureat laureat--mention">
+            <span class="laureat-place">Wyróżnienie</span>
+            <div class="laureat-frame">
+              <div class="laureat-placeholder" aria-hidden="true"></div>
+            </div>
+            <h3 class="laureat-name">Julia Mazur</h3>
+            <p class="laureat-work">„Miasto po deszczu”</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="broszura" class="broszura">
+      <div class="broszura-inner">
+        <div class="broszura-text">
+          <p class="section-label">Materiały</p>
+          <h2 class="section-title">Broszura</h2>
+          <p class="broszura-desc">
+            Pobierz broszurę wystawy z harmonogramem wydarzeń, opisem festiwalu
+            i informacjami praktycznymi.
+          </p>
+          <a href="public/buklet.png" class="btn btn-download" download="Cztery_Pory_Roku_broszura.png">
+            Pobierz broszurę
+          </a>
+          <p class="broszura-note">Podgląd broszury festiwalowej</p>
+        </div>
+        <figure class="broszura-preview">
+          <img src="public/buklet.png" alt="Podgląd broszury Cztery Pory Roku">
+        </figure>
+      </div>
+    </section>
+
+    <section id="kontakt" class="kontakt">
+      <div class="kontakt-inner">
+        <div class="kontakt-info">
+          <p class="section-label">Odwiedź nas</p>
+          <h2 class="section-title">Kontakt</h2>
+
+          <address class="kontakt-address">
+            <strong>Galeria Sztuki Nowoczesnej</strong><br>
+            ul. Centralna 24<br>
+            Poznań
+          </address>
+
+          <ul class="kontakt-list">
+            <li>
+              <span class="kontakt-key">Instagram</span>
+              <a href="#instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </li>
+            <li>
+              <span class="kontakt-key">Strona</span>
+              <a href="#strona" target="_blank" rel="noopener noreferrer">www.czteryporyroku.pl</a>
+            </li>
+            <li>
+              <span class="kontakt-key">Telefon</span>
+              <a href="tel:+48123456789">+48 123 456 789</a>
+            </li>
+          </ul>
+
+          <dl class="kontakt-hours">
+            <div>
+              <dt>Wernisaż</dt>
+              <dd>18:00</dd>
+            </div>
+            <div>
+              <dt>Dni otwarcia</dt>
+              <dd>Wtorek – Niedziela</dd>
+            </div>
+            <div>
+              <dt>Godziny</dt>
+              <dd>11:00 – 20:00</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="kontakt-visual">
+          <img src="public/Materials_page-0001.jpg" alt="Wizytówka wystawy Cztery Pory Roku">
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-pattern" aria-hidden="true"></div>
+    <img class="footer-mark" src="public/Logo3.png" alt="" aria-hidden="true">
+    <img class="footer-logo" src="public/Logo4.png" alt="Cztery Pory Roku">
+    <nav class="footer-social" aria-label="Social media">
+      <a href="#instagram" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="#strona" target="_blank" rel="noopener noreferrer">WWW</a>
+      <a href="tel:+48 123 456 789">Telefon</a>
+    </nav>
+    <p class="footer-address">ul. Św. Czesława 18A, Poznań</p>
+    <p class="footer-copy">© 2025 Cztery Pory Roku — Festiwal fotografii</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
