@@ -25,3 +25,21 @@
     if (e.key === "Escape") closeNav();
   });
 })();
+
+(function () {
+  var card = document.querySelector(".biz-card");
+
+  if (!card) return;
+
+  function toggleFlip() {
+    card.classList.toggle("is-flipped");
+  }
+
+  card.addEventListener("click", toggleFlip);
+  card.addEventListener("keydown", function (e) {
+    if (e.key === "Enter" || e.key === " ") {
+      e.preventDefault();
+      toggleFlip();
+    }
+  });
+})();
